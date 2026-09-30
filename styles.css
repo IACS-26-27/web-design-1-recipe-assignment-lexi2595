@@ -1,6 +1,30 @@
-/* Your styles go here! */
+main {
+  background-color: azure;
+  color: cadetblue;
+  padding: 50px 8px;
+}
+section {
+  background-color: rgb(221, 255, 255);
+  padding-inline: 20px;
+  padding-block: 0.5px
+}
 h1 {
-  /* Demo style -- remove me and write your own */
-  font-size: 48px;
-  color: purple;
+  background-color: rgb(221, 255, 255);
+  padding: 3px 8px;
+  font-family: fantasy;
+  font-size: 50px;
+  font-weight: 1000;
+  color: rgb(40, 113, 158);
+}
+h2 {
+  background-color: rgb(228, 244, 255);
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: 900px;
+  color: rgb(40, 113, 158);
+}
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: black;
 }

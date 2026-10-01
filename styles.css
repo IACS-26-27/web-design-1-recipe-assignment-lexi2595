@@ -3,28 +3,56 @@ main {
   color: cadetblue;
   padding: 50px 8px;
 }
-section {
-  background-color: rgb(221, 255, 255);
+section.s1 {
+  background-color: rgb(228, 244, 255);
   padding-inline: 20px;
-  padding-block: 0.5px
+  padding-block: 0px;
+  margin-inline: auto;
+  margin-block: 15px;
+  height: fit-content;
+  width: 700px;
+  text-align: center;
+  border-style: solid;
+  border-radius: 20px;
+  border: 50px, rgb(101, 184, 172);
+}
+section.s2 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 50px;
+  padding-block: 0.5px;
+  margin-inline: auto;
+  margin-block: 15px;
+  height: fit-content;
+  width: 1000px;
+  text-align: left;
 }
 h1 {
-  background-color: rgb(221, 255, 255);
-  padding: 3px 8px;
+  padding-inline: 3px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
   font-family: fantasy;
-  font-size: 50px;
-  font-weight: 1000;
-  color: rgb(40, 113, 158);
+  font-size: 42px;
+  font-weight: 1100px;
+  color: rgb(20, 64, 91);
 }
 h2 {
-  background-color: rgb(228, 244, 255);
+  padding-inline: 3px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
   font-family: fantasy;
   font-size: 25px;
-  font-weight: 900px;
+  font-weight: 1100px;
   color: rgb(40, 113, 158);
 }
 h3 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
+  color: rgb(9, 56, 70);
+  padding: 3px 3px;
+}
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
   color: black;
+  padding: 3px 3px;
 }

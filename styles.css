@@ -18,21 +18,36 @@ section.s1 {
 }
 section.s2 {
   background-color: rgb(228, 244, 255);
+  padding-inline: 40px;
+  padding-block: 0.5px;
+  margin-inline: auto;
+  margin-block: 15px;
+  height: 200px;
+  width: 650px;
+  border-style: solid;
+  border-radius: 10px;
+  display: flex;
+}
+section.s3 {
+  background-color: rgb(228, 244, 255);
   padding-inline: 50px;
   padding-block: 0.5px;
   margin-inline: auto;
   margin-block: 15px;
   height: fit-content;
   width: 1000px;
+  border-style: solid;
+  border-radius: 10px;
   text-align: left;
 }
 h1 {
   padding-inline: 3px;
   padding-top: 0.5px;
   padding-bottom: 0.5px;
-  font-family: fantasy;
-  font-size: 42px;
-  font-weight: 1100px;
+  font-family: "Edu QLD Hand", cursive;
+  font-size: 60px;
+  font-weight: 400px;
+  font-style: normal;
   color: rgb(20, 64, 91);
 }
 h2 {
@@ -42,17 +57,35 @@ h2 {
   font-family: fantasy;
   font-size: 25px;
   font-weight: 1100px;
-  color: rgb(40, 113, 158);
+  color: rgb(31, 94, 133);
 }
 h3 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 25px;
   color: rgb(9, 56, 70);
-  padding: 3px 3px;
+  padding-inline: 10px;
+  align-self: center;
+}
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: rgb(9, 56, 70);
+  padding-inline: 10px;
 }
 p {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
+  font-size: 18px;
   color: black;
-  padding: 3px 3px;
+  padding-inline: 12px;
+  padding-block: 5px
+}
+footer {
+  background-color: azure;
+  padding: 20px;
+}
+ul {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: black;
+  padding-block: 25px
 }

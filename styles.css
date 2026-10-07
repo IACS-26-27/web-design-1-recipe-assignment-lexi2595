@@ -3,6 +3,10 @@ main {
   color: cadetblue;
   padding: 50px 8px;
 }
+body {
+  background-color: azure;
+  padding: 50px 8px;
+}
 section.s1 {
   background-color: rgb(228, 244, 255);
   padding-inline: 20px;
@@ -10,7 +14,7 @@ section.s1 {
   margin-inline: auto;
   margin-block: 15px;
   height: fit-content;
-  width: 700px;
+  width: 850px;
   text-align: center;
   border-style: solid;
   border-radius: 20px;
@@ -23,7 +27,7 @@ section.s2 {
   margin-inline: auto;
   margin-block: 15px;
   height: 200px;
-  width: 650px;
+  width: 750px;
   border-style: solid;
   border-radius: 10px;
   display: flex;
@@ -35,7 +39,7 @@ section.s3 {
   margin-inline: auto;
   margin-block: 15px;
   height: fit-content;
-  width: 1000px;
+  width: 750px;
   border-style: solid;
   border-radius: 10px;
   text-align: left;
@@ -45,9 +49,10 @@ h1 {
   padding-top: 0.5px;
   padding-bottom: 0.5px;
   font-family: "Edu QLD Hand", cursive;
-  font-size: 60px;
+  font-size: 65px;
   font-weight: 400px;
   font-style: normal;
+  font-variant: small-caps;
   color: rgb(20, 64, 91);
 }
 h2 {
@@ -64,13 +69,14 @@ h3 {
   font-size: 25px;
   color: rgb(9, 56, 70);
   padding-inline: 10px;
-  align-self: center;
+
 }
 h4 {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(9, 56, 70);
   padding-inline: 10px;
+  align-self: center;
 }
 p {
   font-family: 'Courier New', Courier, monospace;
@@ -87,5 +93,6 @@ ul {
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   color: black;
-  padding-block: 25px
+  margin-block: auto;
+  align-items: center;
 }

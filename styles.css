@@ -1,6 +1,155 @@
-/* Your styles go here! */
-h1 {
-  /* Demo style -- remove me and write your own */
-  font-size: 48px;
-  color: purple;
+main {
+  background-color: azure;
+  color: cadetblue;
+  padding: 50px 8px;
+}
+body {
+  background-color: azure;
+  padding: 50px 8px;
+}
+section.s1p1 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 50px;
+  padding-block: 0px;
+  margin-inline: auto;
+  margin-block: 15px;
+  height: fit-content;
+  width: 860px;
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  border: 50px, rgb(101, 184, 172);
+}
+section.s1p2 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 50px;
+  padding-block: 0px;
+  margin-inline: auto;
+  margin-block: 15px;
+  height: fit-content;
+  width: 890px;
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  border: 50px, rgb(101, 184, 172);
+}
+section.s2 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 40px;
+  padding-block: 0.5px;
+  margin-inline: auto;
+  margin-block: 15px;
+  height: 150px;
+  width: 700px;
+  border-style: solid;
+  border-radius: 15px;
+  display: flex;
+}
+section.s3 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 50px;
+  padding-block: 0.5px;
+  margin-inline: auto;
+  margin-block: 10px;
+  height: fit-content;
+  width: 800px;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: left;
+}
+section.s4 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 50px;
+  padding-block: 0.5px;
+  margin-inline: auto;
+  margin-block: 10px;
+  height: fit-content;
+  width: 800px;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: right;
+}
+section.s5 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 70px;
+  padding-block: 70px;
+  margin-inline: auto;
+  margin-block: 10px;
+  height: fit-content;
+  width: fit-content;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+}
+h1.top {
+  padding-inline: 3px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  font-family: "Edu QLD Hand", cursive;
+  font-size: 65px;
+  font-weight: 400px;
+  font-style: normal;
+  font-variant: small-caps;
+  color: rgb(20, 64, 91);
+}
+h1.bottom {
+  padding-inline: 3px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  font-family: "Edu QLD Hand", cursive;
+  font-size: 40px;
+  font-weight: 400px;
+  font-style: normal;
+  font-variant: small-caps;
+  color: rgb(20, 64, 91);
+}
+h2.r {
+  padding-inline: 3px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  font-family: fantasy;
+  font-size: 26px;
+  font-weight: 1100px;
+  color: rgb(31, 94, 133);
+}
+h2.c {
+  padding-inline: 3px;
+  padding-top: 0.5px;
+  padding-bottom: 0px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 1200px;
+  color: rgb(31, 94, 133);
+}
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: rgb(9, 56, 70);
+  padding-inline: 10px;
+
+}
+h4 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  color: rgb(9, 56, 70);
+  padding-inline: 10px;
+  align-self: center;
+}
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: black;
+  padding-inline: 12px;
+  padding-block: 5px
+}
+footer {
+  background-color: azure;
+  padding: 20px;
+}
+ul.l1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: black;
+  margin-block: auto;
+  align-items: center;
 }

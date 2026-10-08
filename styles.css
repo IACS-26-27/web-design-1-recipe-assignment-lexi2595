@@ -7,17 +7,30 @@ body {
   background-color: azure;
   padding: 50px 8px;
 }
-section.s1 {
+section.s1p1 {
   background-color: rgb(228, 244, 255);
-  padding-inline: 20px;
+  padding-inline: 50px;
   padding-block: 0px;
   margin-inline: auto;
   margin-block: 15px;
   height: fit-content;
-  width: 850px;
+  width: 860px;
   text-align: center;
   border-style: solid;
-  border-radius: 20px;
+  border-radius: 10px;
+  border: 50px, rgb(101, 184, 172);
+}
+section.s1p2 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 50px;
+  padding-block: 0px;
+  margin-inline: auto;
+  margin-block: 15px;
+  height: fit-content;
+  width: 890px;
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
   border: 50px, rgb(101, 184, 172);
 }
 section.s2 {
@@ -26,10 +39,10 @@ section.s2 {
   padding-block: 0.5px;
   margin-inline: auto;
   margin-block: 15px;
-  height: 200px;
-  width: 750px;
+  height: 150px;
+  width: 700px;
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 15px;
   display: flex;
 }
 section.s3 {
@@ -37,14 +50,26 @@ section.s3 {
   padding-inline: 50px;
   padding-block: 0.5px;
   margin-inline: auto;
-  margin-block: 15px;
+  margin-block: 10px;
   height: fit-content;
-  width: 750px;
+  width: 800px;
   border-style: solid;
   border-radius: 10px;
   text-align: left;
 }
-h1 {
+section.s4 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 50px;
+  padding-block: 0.5px;
+  margin-inline: auto;
+  margin-block: 10px;
+  height: fit-content;
+  width: 800px;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: right;
+}
+h1.top {
   padding-inline: 3px;
   padding-top: 0.5px;
   padding-bottom: 0.5px;
@@ -55,13 +80,33 @@ h1 {
   font-variant: small-caps;
   color: rgb(20, 64, 91);
 }
-h2 {
+h1.bottom {
+  padding-inline: 3px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+  font-family: "Edu QLD Hand", cursive;
+  font-size: 40px;
+  font-weight: 400px;
+  font-style: normal;
+  font-variant: small-caps;
+  color: rgb(20, 64, 91);
+}
+h2.r {
   padding-inline: 3px;
   padding-top: 0.5px;
   padding-bottom: 0.5px;
   font-family: fantasy;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 1100px;
+  color: rgb(31, 94, 133);
+}
+h2.c {
+  padding-inline: 3px;
+  padding-top: 0.5px;
+  padding-bottom: 0px;
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: 1200px;
   color: rgb(31, 94, 133);
 }
 h3 {
@@ -73,7 +118,7 @@ h3 {
 }
 h4 {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 20px;
+  font-size: 25px;
   color: rgb(9, 56, 70);
   padding-inline: 10px;
   align-self: center;
@@ -89,7 +134,7 @@ footer {
   background-color: azure;
   padding: 20px;
 }
-ul {
+ul.l1 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
   color: black;

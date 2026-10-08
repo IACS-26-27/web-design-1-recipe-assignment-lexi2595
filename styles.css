@@ -69,6 +69,18 @@ section.s4 {
   border-radius: 10px;
   text-align: right;
 }
+section.s5 {
+  background-color: rgb(228, 244, 255);
+  padding-inline: 70px;
+  padding-block: 70px;
+  margin-inline: auto;
+  margin-block: 10px;
+  height: fit-content;
+  width: fit-content;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+}
 h1.top {
   padding-inline: 3px;
   padding-top: 0.5px;
